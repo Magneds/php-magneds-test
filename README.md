@@ -6,7 +6,7 @@ Your task is to read from the API provided by: https://www.spaceflightnewsapi.ne
         1. Please use a PSR-18 based library: https://packagist.org/packages/psr/http-client
     1. Refer to the Schemas at the bottom for the structure of the Entity objects.
     1. Parse the data from the API into PHP Objects that represent that schema
-1. Add Symfony/Console commands to display the information in those new Entity objects.
+1. Add [Symfony/Console](https://symfony.com/doc/current/console.html) commands to display the information in those new Entity objects.
     1. One Command to: ReadArticles
     1. One Command to: ReadBlogs
     1. Refer to the Usage part below to see the name of the commands
