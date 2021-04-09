@@ -1,0 +1,14 @@
+{
+    "name": "magneds/recruitment-test",
+    "description": "Magneds Recruitment Test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Magneds\\Recruitment\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "symfony/console": "^5.2"
+    }
+}

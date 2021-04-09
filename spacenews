@@ -1,0 +1,25 @@
+#!/usr/bin/env php
+<?php
+require_once "vendor/autoload.php";
+
+use Magneds\Recruitment\ThirdParty\Command\ReadArticlesCommand;
+use Symfony\Component\Console\Application;
+
+// =========================
+// Add your commands here!
+// =========================
+
+$commands = [];
+
+$commands[] = new ReadArticlesCommand();
+
+// =========================
+
+// The Console Application
+$application = new Application("Magneds Recruitment Test", "1.0.0");
+
+// Adding of the commands
+$application->addCommands($commands);
+
+$application->run();
+exit;
